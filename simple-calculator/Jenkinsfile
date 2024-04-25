@@ -6,7 +6,7 @@ pipeline {
  steps {
  sendNotification('started', 'team@example.com')
  git branch: 'notifications',
- url: 'https://github.com/zrghfg/DO400-apps'
+ url: 'https://github.com/eakcpe/DO400-apps'
  }
  }
  stage('Test') {
